@@ -1,0 +1,140 @@
+body {
+    background-image: linear-gradient(#73372D, #F5B4A9);
+    font-family: sans-serif;
+}
+.conter {
+    margin: 40px auto;
+    padding: 0%;
+    background: white;
+    height: 1px;
+    width: 200px;
+}
+.conter li {
+    display: inline;
+}
+.conter li:nth-child(1){
+   margin-left: -50px;
+   border-radius: 5px;
+   width: 20px;
+   height: 20px;
+   text-align: center;
+    background: white;
+   padding: 5px;
+}
+.conter li:nth-child(2){
+    margin-left: 70px;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: rgb(30, 160, 38);
+    color: white;
+    padding: 5px;
+ }
+ .conter li:nth-child(3){
+    margin-left: 74px;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: white;
+    padding: 5px;
+    box-shadow: 1px 1px 1px black;
+ }
+.container {
+    width: 350px;
+    height: 590px;
+    margin: 90px auto;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    padding: 20px;
+    border-radius: 5px;
+}
+.container h1 {
+    text-align: center;
+    color: rgb(70, 61, 61);
+    text-transform: uppercase;
+}
+.container p {
+    text-align: center;
+    color: #999;
+}
+.form-label {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    color: #999;
+}
+#cpf{
+    display: block;
+    margin-left: 80px;
+    width: 140px;
+    text-align: center;
+    height: 30px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    border-bottom:1px solid black;
+}
+#full{
+    display: block;
+    margin-left: 80px;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    border-bottom:1px solid black;
+}
+#num{
+    display: block;
+    margin-left: 80px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    border-bottom:1px solid black;
+}
+
+.check-label {
+    display: inline;
+    margin-left: 5px;
+    padding: 5px;
+    color: rgb(85, 82, 82);
+}
+.check {
+    display: block;
+    margin-left: 20px;
+    height: 15px;
+    width: 15px;
+}
+.submit{
+    display: block;
+    width: 320px;
+    padding: 9px;
+    margin: 18px 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #3761FA;
+}
+.submit:hover {
+    box-shadow: 2px 2px 2px black;
+}
+.submit a {
+    text-decoration: none;
+    color: white;
+}
+#birt {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 2px 2px 1px black;
+    text-transform: uppercase;
+    color: rgb(120, 114, 114);
+}
